@@ -1,2 +1,1 @@
-# simple_login_page
-C# Simple Login
+This project is a simple login page created using materialized css and html
