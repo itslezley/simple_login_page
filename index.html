@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        .left{  
+            width: 50%;
+        }
+        .left img{
+            height: 60dvh;
+
+        }
+        .right{
+            width: 50%; 
+            text-align: center;
+        }
+        .box{
+            border-radius: 10px;
+            height: 75dvh;
+            width: 900px;
+        }
+        .mycontainer{
+            height: 100dvh;
+            display: flex; 
+            justify-content: center; 
+    align-items: center;
+        }
+
+        a{
+            width: 160px;
+
+        }
+    </style>
+  </head>
+
+  <body>
+<div class="mycontainer">
+    <div class="box z-depth-4 ">
+        <div class="left ">
+            <img src="login.gif" class="" alt="image" />
+        </div>
+        <div class="right">
+            <h1 class="indigo-text text-darken-3">Login</h1>
+            <!--first input-->
+            <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6 m10">
+                      <i class="material-icons prefix blue-text text-lighten-4">person</i>
+                      <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                      <label for="icon_prefix2">exampleemail@gmail.com</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <!--second input-->
+            <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6 m10">
+                      <i class="material-icons prefix blue-text text-lighten-4">vpn_key</i>
+                      <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                      <label for="icon_prefix2 blue-text text-lighten-4">************</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <a class="btn waves-effect waves-blue indigo lighten-1 pulse  center"><i class="material-icons right">login</i>Login</a>
+        </div>
+    </div>
+</div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
